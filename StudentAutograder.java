@@ -91,7 +91,6 @@ public class StudentAutograder{
     one.setFavoriteTeacher(two);
     Boolean a = one.getFavoriteTeacher().getName().equals("Socrates");
     Boolean b = one.getFavoriteTeacher().getReason().equals("He was pretty cool.");
-
     two.setName("Pythagoras");
     two.setReason("Because of the triangles.");
     Boolean c = one.getFavoriteTeacher().getName().equals("Socrates");
